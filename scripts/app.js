@@ -341,7 +341,7 @@
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-             .register('scripts/service-workers.js')
+             .register('/PWA_Test/scripts/service-workers.js')
              .then(function() { console.log('Service Worker Registered'); });
   }
 })();
