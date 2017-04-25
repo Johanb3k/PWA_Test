@@ -341,7 +341,7 @@
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-             .register('scripts/service-worker.js')
+             .register('scripts/service-workers.js')
              .then(function() { console.log('Service Worker Registered'); });
   }
 })();
